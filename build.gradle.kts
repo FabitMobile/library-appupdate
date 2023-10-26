@@ -11,6 +11,7 @@ buildscript {
     dependencies {
         classpath("com.google.gms:google-services:4.4.0")
         classpath("com.huawei.agconnect:agcp:1.5.2.300")
+        classpath("com.github.dcendents:android-maven-gradle-plugin:2.0")
     }
 }
 

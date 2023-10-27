@@ -37,3 +37,5 @@ dependencies {
 
     implementation("androidx.core:core-ktx:1.9.0")
 }
+
+apply(from = "../android_publish.gradle")

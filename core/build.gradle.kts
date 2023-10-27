@@ -1,6 +1,5 @@
 plugins {
-    id("java-library")
-    id("org.jetbrains.kotlin.jvm")
+    id("kotlin")
 }
 
 java {
@@ -11,3 +10,5 @@ java {
 dependencies {
     testImplementation("junit:junit:4.13.2")
 }
+
+apply(from = "../kotlin_publish.gradle")

@@ -11,8 +11,8 @@ task sourcesJar(type: Jar) {
 android {
     publishing {
         singleVariant("release") {
-            withJavadocJar()
-            withSourcesJar()
+//            withJavadocJar()
+//            withSourcesJar()
         }
     }
 }

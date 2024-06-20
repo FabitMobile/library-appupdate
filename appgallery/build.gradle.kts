@@ -34,7 +34,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":core"))
+    api(project(":core"))
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("com.huawei.hms:appservice:6.8.0.300")

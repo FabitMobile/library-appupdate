@@ -33,7 +33,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":core"))
+    api(project(":core"))
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("com.google.android.play:app-update-ktx:2.1.0")

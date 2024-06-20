@@ -3,6 +3,7 @@ package ru.fabit.appupdate.googleplay
 import android.app.Activity
 import android.content.Context
 import com.google.android.play.core.appupdate.AppUpdateManagerFactory
+import com.google.android.play.core.appupdate.AppUpdateOptions
 import com.google.android.play.core.install.InstallState
 import com.google.android.play.core.install.InstallStateUpdatedListener
 import com.google.android.play.core.install.model.AppUpdateType
@@ -71,8 +72,8 @@ abstract class GoogleApplicationUpdateManager(context: Context) : ApplicationUpd
         appUpdateManager.appUpdateInfo.addOnSuccessListener { appUpdateInfo ->
             appUpdateManager.startUpdateFlowForResult(
                 appUpdateInfo,
-                appUpdateType,
                 activity as Activity,
+                AppUpdateOptions.defaultOptions(appUpdateType),
                 UPDATE_REQUEST_CODE
             )
             appUpdateManager.registerListener(installListener)

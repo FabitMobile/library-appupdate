@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "ru.fabit.appupdate.googleplay"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 24
@@ -36,7 +36,7 @@ dependencies {
     implementation(project(":core"))
 
     implementation("androidx.core:core-ktx:1.9.0")
-    implementation("com.google.android.play:app-update-ktx:2.0.1")
+    implementation("com.google.android.play:app-update-ktx:2.1.0")
 }
 
 apply(from = "../android_publish.gradle")

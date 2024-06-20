@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "ru.fabit.appupdate.appgallery"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 24

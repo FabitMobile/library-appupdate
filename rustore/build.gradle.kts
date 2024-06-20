@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "ru.fabit.appupdate.rustore"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 24

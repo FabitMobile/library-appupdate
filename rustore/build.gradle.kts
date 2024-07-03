@@ -36,6 +36,7 @@ dependencies {
     api(project(":core"))
 
     implementation("androidx.core:core-ktx:1.9.0")
+    implementation("ru.rustore.sdk:appupdate:3.0.0")
 }
 
 apply(from = "../android_publish.gradle")
